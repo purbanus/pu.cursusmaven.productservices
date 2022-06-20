@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bharath.product.ProductDaoImplTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/purbanus/projecten/workspaces/sts4.12.1/productservices/target/test-classes:/home/purbanus/projecten/workspaces/sts4.12.1/productservices/target/classes:/home/purbanus/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/purbanus/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/purbanus/.m2/repository/org/springframework/spring-context/4.3.15.RELEASE/spring-context-4.3.15.RELEASE.jar:/home/purbanus/.m2/repository/org/springframework/spring-aop/4.3.15.RELEASE/spring-aop-4.3.15.RELEASE.jar:/home/purbanus/.m2/repository/org/springframework/spring-beans/4.3.15.RELEASE/spring-beans-4.3.15.RELEASE.jar:/home/purbanus/.m2/repository/org/springframework/spring-core/4.3.15.RELEASE/spring-core-4.3.15.RELEASE.jar:/home/purbanus/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/purbanus/.m2/repository/org/springframework/spring-expression/4.3.15.RELEASE/spring-expression-4.3.15.RELEASE.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/purbanus/prog/eclipse/sts-4.13.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.1.v20211116-1657/jre/lib"/>
+    <property name="sun.java.command" value="/home/purbanus/projecten/workspaces/sts4.12.1/productservices/target/surefire/surefirebooter6253227245354830198.jar /home/purbanus/projecten/workspaces/sts4.12.1/productservices/target/surefire 2022-06-19T23-35-41_726-jvmRun1 surefire8568921677525219081tmp surefire_018171668343663611571tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/purbanus/projecten/workspaces/sts4.12.1/productservices/target/test-classes:/home/purbanus/projecten/workspaces/sts4.12.1/productservices/target/classes:/home/purbanus/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/purbanus/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/purbanus/.m2/repository/org/springframework/spring-context/4.3.15.RELEASE/spring-context-4.3.15.RELEASE.jar:/home/purbanus/.m2/repository/org/springframework/spring-aop/4.3.15.RELEASE/spring-aop-4.3.15.RELEASE.jar:/home/purbanus/.m2/repository/org/springframework/spring-beans/4.3.15.RELEASE/spring-beans-4.3.15.RELEASE.jar:/home/purbanus/.m2/repository/org/springframework/spring-core/4.3.15.RELEASE/spring-core-4.3.15.RELEASE.jar:/home/purbanus/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/purbanus/.m2/repository/org/springframework/spring-expression/4.3.15.RELEASE/spring-expression-4.3.15.RELEASE.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/purbanus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/home/purbanus/prog/eclipse/sts-4.13.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.1.v20211116-1657/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/home/purbanus/projecten/workspaces/sts4.12.1/productservices"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/purbanus/projecten/workspaces/sts4.12.1/productservices/target/surefire/surefirebooter6253227245354830198.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="user.name" value="purbanus"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-120-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="localRepository" value="/home/purbanus/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/home/purbanus/projecten/workspaces/sts4.12.1/productservices"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="creatShouldCreateAProduct" classname="com.bharath.product.ProductDaoImplTest" time="0.003"/>
+</testsuite>
